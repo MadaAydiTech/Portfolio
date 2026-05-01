@@ -4,7 +4,7 @@
 
 {% block body %}
 <div class="container conteneur">
-    <h1 class="display">Mon E-Portfolio de Compétences</h1>
+    <h1 class="display-4">Mon E-Portfolio de Compétences</h1>
     <p class="lead">
         Découvrez mes compétences acquises durant ma formation en BUT Réseaux et Télécommunications, 
         accompagnées d'auto-évaluations et de preuves concrètes de mon parcours.
@@ -27,7 +27,7 @@
         <div class="tab-pane fade show active competence" id="administrer" role="tabpanel">
             <h3>Compétence : Administrer des réseaux et des services</h3>
             
-            <div class="auto-evaluation">
+            <div class="auto-evaluation my-4">
                 <h5>Auto-évaluation : Niveau 2/4 - En développement</h5>
                 <div class="progress barre-progression" style="height: 25px;">
                     <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">2/4</div>
@@ -144,11 +144,12 @@
                                 <img src="{{ asset('images/pour_Administrer/AC_11_03/Filtrage_adresse_MAC_Cisco.png') }}" class="card-img-bottom" alt="Filtrage MAC">
                             </div>
                             <div class="col-md-4 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Routage</h6>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Routage</h6>
+                                    </div>
+                                    <img src="{{ asset('images/pour_Administrer/AC_11_03/utilisation_du_routage.png') }}" class="card-img-bottom" alt="Routage">
                                 </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_03/utilisation_du_routage.png') }}" class="card-img-bottom" alt="Routage">
                             </div>
                         </div>
                     </div>
@@ -159,7 +160,7 @@
                         <div class="card-body">
                             <h6 class="card-title">Services client/serveur</h6>
                         </div>
-                        <img src="{{ asset('images/pour_Administrer/AC_11_04/Maitrise_des _services_client_serveur.png') }}" class="card-img-bottom" alt="Services">
+                        <img src="{{ asset('images/pour_Administrer/AC_11_04/Maitrise_des_services_client_serveur.png') }}" class="card-img-bottom" alt="Services">
                     </div>
                     <div class="card mb-3">
                         <div class="card-body">
@@ -191,7 +192,7 @@
                 </div>
             </div>
 
-            <div class="card text-white bg-primary carte-reflexive mb-3">
+            <div class="card text-white bg-primary carte-reflexive mb-4">
                 <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence ADMINISTRER</div>
                 <div class="card-body corps-carte">
                     <p class="card-text">
@@ -299,7 +300,7 @@
         <div class="tab-pane fade competence" id="programmer" role="tabpanel">
             <h3>Compétence : Programmer des équipements et applications</h3>
             
-            <div class="auto-evaluation">
+            <div class="auto-evaluation py-4">
                 <h5>Auto-évaluation : Niveau 3/4 - Maîtrise satisfaisante</h5>
                 <div class="progress barre-progression" style="height: 25px;">
                     <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">3/4</div>
