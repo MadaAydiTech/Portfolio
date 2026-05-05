@@ -160,13 +160,25 @@
                         <div class="card-body">
                             <h6 class="card-title">Services client/serveur</h6>
                         </div>
-                        <img src="{{ asset('images/pour_Administrer/AC_11_04/Maitrise_des_services_client_serveur.png') }}" class="card-img-bottom" alt="Services">
+                        <img src="{{ asset('images/pour_Administrer/AC_11_04/Maitrise_des _services_client_serveur.png') }}" class="card-img-bottom" alt="Services">
                     </div>
                     <div class="card mb-3">
                         <div class="card-body">
                             <h6 class="card-title">Virtualisation/conteneurisation</h6>
                         </div>
                         <img src="{{ asset('images/pour_Administrer/AC_11_04/utilisation_de_VMWARE.png') }}" class="card-img-bottom" alt="Virtualisation/création VM">
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h6 class="card-title">Partage Samba</h6>
+                        </div>
+                        <img src="{{ asset('images/pour_Administrer/AC_11_04/Partage_SMB_via_RDP.png') }}" class="card-img-bottom" alt="Partage SMB">
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h6 class="card-title">Configuration serveur DNS</h6>
+                        </div>
+                        <img src="{{ asset('images/pour_Administrer/AC_11_04/mise_en_place_DNS_en_RDP.png') }}" class="card-img-bottom" alt="DNS">
                     </div>
                     <h5 class="mt-4"><strong>AC11.06</strong> Installer un poste client</h5>
                     
@@ -196,12 +208,11 @@
                 <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence ADMINISTRER</div>
                 <div class="card-body corps-carte">
                     <p class="card-text">
-                        J'ai travaillé sur de l'électronique avec Arduino et ESP32, ce qui m'a permis de comprendre les bases de l'électricité et le lien entre matériel et logiciel.
-                        J'ai appris à programmer en C sur microcontrôleur et à diagnostiquer des problèmes sur des montages.
-                        J'ai compris le fonctionnement des réseaux et je sais utiliser Wireshark : modèles OSI/TCP-IP, TCP vs UDP, encapsulation et rôle des protocoles.
-                        J'ai configuré des réseaux LAN avec Cisco Packet Tracer (IP, ping, masque de sous-réseau, vlans, sécurité du réseau, SSH , Banniere , Filtrage d'adresse MAC).
-                        J'ai renforcé mes bases en systèmes d'exploitation, surtout Linux, et mis en place des environnements client/serveur en machines virtuelles.
-                        Aujourd'hui, je suis plus autonome techniquement et je comprends ce que je fais, du matériel jusqu'au réseau.
+                        J'ai expérimenté l'électronique avec Arduino et ESP32, ce qui m'a permis de maîtriser les bases de l'électricité et le lien entre matériel et logiciel. 
+                        J'ai diagnostiqué des problèmes sur des montages et appliqué la programmation en C sur microcontrôleur.
+                         J'ai exploité Wireshark pour analyser les modèles OSI/TCP-IP, l'encapsulation et le rôle des protocoles. 
+                         J'ai configuré des réseaux LAN avec Cisco Packet Tracer (VLANs, SSH, filtrage MAC, routage RIP, NAT, ACL), déployé des partages SMB, administré des serveurs DNS et mis en place des environnements client/serveur en machines virtuelles sous Linux. 
+                         Aujourd'hui, je suis capable d'administrer une infrastructure réseau complète, du matériel jusqu'aux services.
                     </p>
                 </div>
             </div>
@@ -224,24 +235,7 @@
                     
                     <h5 class="mt-4"><strong>AC12.01</strong> Mesurer et analyser les signaux</h5>
                     
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Mesures à l'oscilloscope</h6>
-                                </div>
-                                <img src="{{ asset('images/pour_connecter/AC_12_01/Mesures_sigaux_oscilloscope_montage_electronique.png') }}" class="card-img-bottom" alt="Oscilloscope">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Mesures au multimètre</h6>
-                                </div>
-                                <img src="{{ asset('images/pour_connecter/AC_12_01/Mesure_tension_multimetre.png') }}" class="card-img-bottom" alt="Multimètre">
-                            </div>
-                        </div>
-                    </div>
+                    
 
                     <h5 class="mt-4"><strong>AC12.02</strong> Caractériser des systèmes de transmissions</h5>
                     
@@ -249,7 +243,13 @@
                         <div class="card-body">
                             <h6 class="card-title">Déphasage sur Proteus</h6>
                         </div>
-                        <img src="{{ asset('images/pour_connecter/AC_12_02/Dephasage_proteus.png') }}" class="card-img-bottom" alt="Proteus">
+                        <img src="{{ asset('images/pour_connecter/AC_12_02/Dephasage_proteus.png') }}" class="card-img-bottom" alt="LabView">
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title">LabView</h6>
+                        </div>
+                        <img src="{{ asset('images/pour_connecter/AC_12_02/Lab_View.png') }}" class="card-img-bottom" alt="LabView">
                     </div>
 
                     <h5 class="mt-4"><strong>AC12.03</strong> Déployer des supports de transmission</h5>
@@ -280,7 +280,9 @@
                             </div>
                         </div>
                     </div>
+
                     <h5 class="mt-4"><strong>AC12.04</strong> Connecter les systèmes de ToIP</h5>
+
                     <div class="row">
                         <div class="col-md-4 mb-3">
                             <div class="card">
@@ -292,6 +294,18 @@
                         </div>
                     </div>
 
+                    <h5 class="mt-4"><strong>AC12.05</strong>Communiquer avec un tiers (client, collaborateur...) et adapter son discours et sa langue à son interlocuteur</h5>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Rédaction</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_connecter/AC_12_05/Manuel_utilisation_anglais.png') }}" class="card-img-bottom" alt="Rédaction">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -299,10 +313,10 @@
                 <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence CONNECTER</div>
                 <div class="card-body corps-carte">
                     <p class="card-text">
-                        J'ai appris à mesurer et analyser des signaux avec des générateurs, un multimètre et un oscilloscope, et à voir concrètement l'impact des composants électroniques sur un signal.
-                        J'ai compris l'importance de la rigueur dans les mesures : branchements, réglages et vérifications sont essentiels pour éviter les erreurs.
-                        J'ai découvert la modélisation des systèmes de transmission avec Proteus, ce qui m'a permis de mieux comprendre l'amplitude, le déphasage et le comportement des signaux.En fibre optique, je suis passé de la théorie à la pratique : préparation des fibres, soudure, contrôle et interprétation des mesures.
-                        Grâce à la pratique, je suis maintenant capable de déployer, tester et valider un lien de transmission fiable via le Aircheck G2 et le Fluke Cable IQ.
+                        J'ai mesuré et analysé des signaux avec des générateurs, un multimètre et un oscilloscope, en appliquant la transformée de Fourier et en exploitant LabVIEW pour interpréter le comportement des signaux. 
+                        J'ai modélisé des systèmes de transmission avec Proteus pour caractériser l'amplitude, le déphasage et le multiplexage, et utilisé des convertisseurs analogique-numérique (CAN) pour comprendre la chaîne de transmission. 
+                        En fibre optique, j'ai déployé, testé et validé des liens de transmission avec l'Aircheck G2 et le Fluke Cable IQ. 
+                        J'ai configuré des systèmes de téléphonie d'entreprise via 3CX et FreePBX, et rédigé des rapports techniques pour synthétiser et présenter mes résultats de manière rigoureuse.
                     </p>
                 </div>
             </div>
@@ -323,9 +337,12 @@
                 <div class="card-header tete-carte"><strong>Ce que j'ai réalisé</strong></div>
                 <div class="card-body corps-carte">
                     <ul>
+                        <li><strong>13.01:</strong> Utiliser un système informatique et ses outils</li>
                         <li><strong>13.02:</strong> Lire, exécuter, corriger et modifier un programme</li>
                         <li><strong>13.03:</strong> Traduire un algorithme, dans un langage et pour un environnement donné</li>
                         <li><strong>13.04:</strong> Connaître l'architecture et les technologies d'un site Web</li>
+                        <li><strong>13.05:</strong> Choisir les mécanismes de gestion de données adaptés au développement de l’outil et argumenter ses choix</li>
+                        <li><strong>13.06:</strong> S’intégrer dans un environnement propice au développement et au travail collaboratif</li>
                     </ul>
 
                     <h5 class="mt-4">Preuves de mes compétences</h5>
@@ -342,9 +359,33 @@
                         <div class="col-md-6 mb-3">
                             <div class="card">
                                 <div class="card-body">
+                                    <h6 class="card-title">Geogebra</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_programmer/AC_13_01/géogebra.png') }}" class="card-img-bottom" alt="Geogebra">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card">
+                                <div class="card-body">
                                     <h6 class="card-title">Coder en Python</h6>
                                 </div>
                                 <img src="{{ asset('images/pour_programmer/AC_13_02/Coder_python.png') }}" class="card-img-bottom" alt="Python">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Coder en SQL sur ACCESS</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_programmer/AC_13_02/Access_SQL.png') }}" class="card-img-bottom" alt="Access">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Coder C++</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_programmer/AC_13_02/C++.png') }}" class="card-img-bottom" alt="C++">
                             </div>
                         </div>
                         <div class="col-md-6 mb-3">
@@ -363,6 +404,14 @@
                                 <img src="{{ asset('images/pour_programmer/AC_13_04/Page_accueil.png') }}" class="card-img-bottom" alt="Rendu">
                             </div>
                         </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Docker</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_programmer/AC_13_05/Docker.png') }}" class="card-img-bottom" alt="Docker">
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -372,12 +421,10 @@
                 <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence PROGRAMMER</div>
                 <div class="card-body corps-carte">
                     <p class="card-text">
-                        Avant, je connaissais un peu Python, mais pas le C. Maintenant, je sais lire, comprendre, exécuter et modifier des programmes en C et Python.
-                        J'ai appris à structurer mon code, corriger les erreurs et utiliser le débogage efficacement.
-                        J'ai découvert le développement web avec mon e-portfolio : front-end (HTML, CSS, Bootstrap) et back-end (Symfony).
-                        J'ai travaillé étape par étape à partir d'un cahier des charges et surmonté les difficultés en cherchant des solutions.
-                        Aujourd'hui, je sais programmer et créer un site web complet en comprenant le rôle de chaque technologie.
-                        Prochain objectif : apprendre JavaScript pour rendre mes sites interactifs.
+                        J'ai développé mes compétences en programmation en codant en C, C++ (Arduino Uno), Python et SQL (Access), en structurant mon code et en utilisant le débogage efficacement. 
+                        J'ai conçu mon e-portfolio de A à Z : front-end (HTML, CSS, Bootstrap) et back-end (Symfony), en travaillant à partir d'un cahier des charges. 
+                        J'ai exploité GeoGebra pour modéliser des concepts mathématiques, et déployé des environnements conteneurisés avec Docker et Portainer. 
+                        Aujourd'hui, je suis capable de produire une application web complète et de gérer une infrastructure logicielle, avec pour prochain objectif d'intégrer JavaScript pour rendre mes interfaces interactives.
                     </p>
                 </div>
             </div>
@@ -395,6 +442,8 @@
                 <div class="card-body corps-carte">
                     <h6 class="card-title">Applications/outils utilisés lors de mes projets :</h6>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Symfony</span>
+                    <span class="badge bg-secondary etiquette me-1 mb-2">Access</span>
+                    <span class="badge bg-secondary etiquette me-1 mb-2">Géogebra</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Bootstrap</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">GitHub</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Excel</span>
