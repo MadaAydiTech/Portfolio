@@ -12,95 +12,33 @@
 
     <ul class="nav nav-tabs onglets" role="tablist">
         <li class="nav-item" role="presentation">
-            <a class="nav-link active" data-bs-toggle="tab" href="#administrer" aria-selected="true" role="tab">Administrer</a>
+            <a class="nav-link active" data-bs-toggle="tab" href="#administrer" role="tab">Administrer</a>
         </li>
         <li class="nav-item" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" href="#connecter" aria-selected="false" role="tab">Connecter</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#connecter" role="tab">Connecter</a>
         </li>
         <li class="nav-item" role="presentation">
-            <a class="nav-link" data-bs-toggle="tab" href="#programmer" aria-selected="false" role="tab">Programmer</a>
+            <a class="nav-link" data-bs-toggle="tab" href="#programmer" role="tab">Programmer</a>
         </li>
     </ul>
 
     <div id="moncontenu" class="tab-content contenu-onglets mt-4">
     
         <div class="tab-pane fade show active competence" id="administrer" role="tabpanel">
-            <h3>Compétence : Administrer des réseaux et des services</h3>
+            <h3>Compétence : Administrer les Réseaux et l'Internet</h3>
             
             <div class="auto-evaluation my-4">
-                <h5>Auto-évaluation : Niveau 2/4 - En développement</h5>
+                <h5>Auto-évaluation : Niveau 3/4 Maîtrise satisfaisante</h5>
                 <div class="progress barre-progression" style="height: 25px;">
-                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">2/4</div>
+                    <div class="progress-bar" role="progressbar" style="width: 75%;">3/4</div>
                 </div>
-                <p class="mt-2">Configuration d'équipements réseau, installation de systèmes d'exploitation (Linux/Windows), diagnostic de dysfonctionnements.</p>
+                <p class="mt-2">Configuration d'équipements réseau, administration système, diagnostic et résolution d'incidents.</p>
             </div>
 
             <div class="card carte">
                 <div class="card-header tete-carte"><strong>Ce que j'ai réalisé</strong></div>
                 <div class="card-body corps-carte">
                     
-                    <h5 class="mt-4"><strong>AC11.01</strong> Maîtriser les lois fondamentales de l'électricité</h5>
-                    <p>Afin d'intervenir sur des équipements de réseaux et télécommunications</p>
-                    
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Clavier numérique et LED</h6>
-                                    <p class="card-text">Via microcontrôleur Arduino Uno</p>
-                                </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_01/Microcontroleur_arduino_uno.png') }}" class="card-img-bottom" alt="Arduino">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Thermomètre connecté</h6>
-                                    <p class="card-text">Via microcontrôleur ESP32</p>
-                                </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_01/Microcontroleur_ESP32.png') }}" class="card-img-bottom" alt="ESP32">
-                            </div>
-                        </div>
-                    </div>
-
-                    <h5 class="mt-4"><strong>AC11.02</strong> Architecture et fondements des systèmes numériques</h5>
-                    <p>Comprendre les principes du codage de l'information, des communications et de l'Internet</p>
-                    
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Analyse de trame Wireshark</h6>
-                                </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_02/Maitrise_de_wireshark.png') }}" class="card-img-bottom" alt="Wireshark">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Mécanisme d'encapsulation</h6>
-                                </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_02/Mecanisme_d_encapsulation.png') }}" class="card-img-bottom" alt="Encapsulation">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Modèle OSI</h6>
-                                </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_02/Modele_OSI.png') }}" class="card-img-bottom" alt="OSI">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Modèle TCP/IP</h6>
-                                </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_02/Modele_TCP_IP.png') }}" class="card-img-bottom" alt="TCP/IP">
-                            </div>
-                        </div>
-                    </div>
-
                     <h5 class="mt-4"><strong>AC11.03</strong> Configurer les fonctions de base du réseau local</h5>
                     
                     <div class="row">
@@ -143,114 +81,196 @@
                                 </div>
                                 <img src="{{ asset('images/pour_Administrer/AC_11_03/Filtrage_adresse_MAC_Cisco.png') }}" class="card-img-bottom" alt="Filtrage MAC">
                             </div>
-                            <div class="col-md-4 mb-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h6 class="card-title">Routage</h6>
-                                    </div>
-                                    <img src="{{ asset('images/pour_Administrer/AC_11_03/utilisation_du_routage.png') }}" class="card-img-bottom" alt="Routage">
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Routage</h6>
                                 </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_03/utilisation_du_routage.png') }}" class="card-img-bottom" alt="Routage">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Protocole RIP</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_03/protocole_rip.png') }}" class="card-img-bottom" alt="RIP">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Table de routage</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_03/show_ip_route.png') }}" class="card-img-bottom" alt="show ip route">
                             </div>
                         </div>
                     </div>
 
-                    <h5 class="mt-4"><strong>AC11.04</strong> Maîtriser les systèmes d'exploitation</h5>
-                    
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h6 class="card-title">Services client/serveur</h6>
-                        </div>
-                        <img src="{{ asset('images/pour_Administrer/AC_11_04/Maitrise_des _services_client_serveur.png') }}" class="card-img-bottom" alt="Services">
+                    <div class="mt-4 p-3" style="border-left: 4px solid #ff7700;">
+                        <strong>Document de preuve AC11.03</strong>
+                        <ul class="mt-2 mb-0" style="padding-left: 1.2rem;">
+                            <li><strong>Contexte :</strong> Projet réseau complet : configuration de VLANs (trunks/access), routeurs entreprise et FAI, routage externe. Application en DS/TP sur matériel physique (Catalyst 2960, routeurs C1111-8P).</li>
+                            <li><strong>Savoirs :</strong> Modèles OSI/TCP-IP, protocole RIP, adressage IP, sécurisation (SSH, filtrage MAC, mots de passe), services DNS/DHCP/WEB.</li>
+                            <li><strong>Savoir-faire :</strong> Configuration CLI Cisco, création de VLANs, routage inter-VLAN, mise en place de routes statiques et dynamiques (RIP), sécurisation des accès, déploiement de services réseau.</li>
+                            <li><strong>Savoir-être :</strong> Rigueur dans la configuration, méthode de validation étape par étape, autonomie face à un cahier des charges technique.</li>
+                            <li><strong>Résultats :</strong> Infrastructure LAN segmentée et sécurisée fonctionnelle, routage opérationnel entre VLANs et vers l'extérieur, services DNS/DHCP/WEB déployés.</li>
+                        </ul>
                     </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h6 class="card-title">Virtualisation/conteneurisation</h6>
-                        </div>
-                        <img src="{{ asset('images/pour_Administrer/AC_11_04/utilisation_de_VMWARE.png') }}" class="card-img-bottom" alt="Virtualisation/création VM">
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h6 class="card-title">Partage Samba</h6>
-                        </div>
-                        <img src="{{ asset('images/pour_Administrer/AC_11_04/Partage_SMB_via_RDP.png') }}" class="card-img-bottom" alt="Partage SMB">
-                    </div>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h6 class="card-title">Configuration serveur DNS</h6>
-                        </div>
-                        <img src="{{ asset('images/pour_Administrer/AC_11_04/mise_en_place_DNS_en_RDP.png') }}" class="card-img-bottom" alt="DNS">
-                    </div>
-                    <h5 class="mt-4"><strong>AC11.06</strong> Installer un poste client</h5>
+
+                    <h5 class="mt-4"><strong>AC11.04</strong> Maîtriser les rôles et les principes fondamentaux des systèmes d'exploitation</h5>
                     
                     <div class="row">
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-4 mb-3">
                             <div class="card">
                                 <div class="card-body">
-                                    <h6 class="card-title">Installation poste client</h6>
+                                    <h6 class="card-title">Configuration IP Windows</h6>
                                 </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_06/Installation_poste_client.png') }}" class="card-img-bottom" alt="Installation">
+                                <img src="{{ asset('images/pour_Administrer/AC_11_04/configuration_parametre_ip_windows.png') }}" class="card-img-bottom" alt="Config IP Windows">
                             </div>
                         </div>
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-4 mb-3">
                             <div class="card">
                                 <div class="card-body">
-                                    <h6 class="card-title">Environnement Linux</h6>
+                                    <h6 class="card-title">Création compte utilisateur</h6>
                                 </div>
-                                <img src="{{ asset('images/pour_Administrer/AC_11_06/Environnement_linux.png') }}" class="card-img-bottom" alt="Linux">
+                                <img src="{{ asset('images/pour_Administrer/AC_11_04/création_compte_utilisateur.png') }}" class="card-img-bottom" alt="Création utilisateur">
                             </div>
                         </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Installation VMware Tools</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_04/installation_VMWARE_TOOLS.png') }}" class="card-img-bottom" alt="VMware Tools">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Mise en place DNS en RDP</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_04/mise_en_place_DNS_en_RDP.png') }}" class="card-img-bottom" alt="DNS RDP">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Paramètre IP Linux</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_04/parametre_ip_environnement_linux.png') }}" class="card-img-bottom" alt="IP Linux">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Règles de trafic</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_04/règles_de_traffic_permettant_connectivite_entre_pc_perso_et_pc_iut.png') }}" class="card-img-bottom" alt="Règles trafic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 p-3" style="border-left: 4px solid #ff7700;">
+                        <strong>Document de preuve AC11.04</strong>
+                        <ul class="mt-2 mb-0" style="padding-left: 1.2rem;">
+                            <li><strong>Contexte :</strong> Administration de serveurs Windows/Linux en environnement virtualisé VMware, déploiement de services réseau et gestion des identités.</li>
+                            <li><strong>Savoirs :</strong> Rôles DNS (NS, SOA), redirecteurs conditionnels/non conditionnels, bonnes pratiques d'administration, gestion des permissions, protocole SMB.</li>
+                            <li><strong>Savoir-faire :</strong> Création d'utilisateurs et groupes, attribution de permissions NTFS/partages, configuration de zones DNS, mise en place de partages Samba, utilisation de VMware Tools.</li>
+                            <li><strong>Savoir-être :</strong> Respect des bonnes pratiques de sécurité, organisation dans la gestion des droits, rigueur dans la documentation des configurations.</li>
+                            <li><strong>Résultats :</strong> Serveur DNS opérationnel avec zones configurées, partages Samba accessibles selon les permissions définies, environnement virtualisé stable.</li>
+                        </ul>
+                    </div>
+
+                    <h5 class="mt-4"><strong>AC11.05</strong> Savoir identifier les dysfonctionnements du réseau local</h5>
+                    
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Configuration DNS nslookup</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_05/configuration_DNS_nslookup.png') }}" class="card-img-bottom" alt="nslookup">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Display DNS</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_05/dysplaydns.png') }}" class="card-img-bottom" alt="displaydns">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">ipconfig /all</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_05/ip_config_all.png') }}" class="card-img-bottom" alt="ipconfig all">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">ipconfig /renew</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_05/ip_config_renew.png') }}" class="card-img-bottom" alt="ipconfig renew">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Commande ping</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_Administrer/AC_11_05/ping.png') }}" class="card-img-bottom" alt="ping">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 p-3" style="border-left: 4px solid #ff7700;">
+                        <strong>Document de preuve AC11.05</strong>
+                        <ul class="mt-2 mb-0" style="padding-left: 1.2rem;">
+                            <li><strong>Contexte :</strong> Résolution d'incidents réseau en TP et en situation réelle : perte de connectivité, problèmes de résolution DNS, accès distant.</li>
+                            <li><strong>Savoirs :</strong> Commandes de diagnostic (ping, tracert, ipconfig, flushdns), configuration IP, ports RDP (3389) et DNS (53), utilisation de ncpa.cpl, VMware Tools.</li>
+                            <li><strong>Savoir-faire :</strong> Analyse de connectivité avec ping/tracert, vérification de configuration IP, vidage du cache DNS, configuration d'adaptateur réseau, dépannage d'accès RDP, utilisation des outils VMware.</li>
+                            <li><strong>Savoir-être :</strong> Méthodologie de diagnostic (approche couche par couche), patience face aux problèmes complexes, communication claire sur les solutions apportées.</li>
+                            <li><strong>Résultats :</strong> Incidents résolus : connectivité restaurée, résolution DNS fonctionnelle, accès distant opérationnel. Démarche reproductible pour le support technique niveau 1/2.</li>
+                        </ul>
                     </div>
 
                 </div>
             </div>
 
             <div class="card text-white bg-primary carte-reflexive mb-4">
-                <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence ADMINISTRER</div>
+                <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence Administrer</div>
                 <div class="card-body corps-carte">
                     <p class="card-text">
-                        J'ai expérimenté l'électronique avec Arduino et ESP32, ce qui m'a permis de maîtriser les bases de l'électricité et le lien entre matériel et logiciel. 
-                        J'ai diagnostiqué des problèmes sur des montages et appliqué la programmation en C sur microcontrôleur.
-                         J'ai exploité Wireshark pour analyser les modèles OSI/TCP-IP, l'encapsulation et le rôle des protocoles. 
-                         J'ai configuré des réseaux LAN avec Cisco Packet Tracer (VLANs, SSH, filtrage MAC, routage RIP, NAT, ACL), déployé des partages SMB, administré des serveurs DNS et mis en place des environnements client/serveur en machines virtuelles sous Linux. 
-                         Aujourd'hui, je suis capable d'administrer une infrastructure réseau complète, du matériel jusqu'aux services.
+                        J'ai configuré des équipements Cisco en CLI, déployé des VLANs avec trunks et ports access, et mis en place du routage RIP entre routeurs entreprise et FAI. 
+                        La partie sécurisation avec SSH, filtrage MAC et gestion des mots de passe m'a appris l'importance de protéger les accès dès la conception. 
+                        J'ai également administré des serveurs Windows/Linux : création d'utilisateurs, gestion des permissions, configuration DNS avec les enregistrements NS et SOA, et partage de fichiers via Samba. Pour le dépannage, j'ai utilisé ping, tracert, ipconfig et flushdns pour identifier rapidement l'origine des pannes, que ce soit au niveau IP, DNS ou application. 
+                        L'utilisation de VMware Tools et la configuration RDP m'ont permis de gérer des machines à distance efficacement. Au début, la complexité des commandes Cisco et la gestion des permissions m'ont demandé de la rigueur, mais la pratique régulière m'a rendu plus à l'aise. 
+                        J'ai compris qu'administrer, c'est anticiper : documenter, tester, valider avant de mettre en production. Pour progresser, je souhaite approfondir l'automatisation avec des scripts et me former sur la supervision réseau.
                     </p>
                 </div>
             </div>
         </div>
 
         <div class="tab-pane fade competence" id="connecter" role="tabpanel">
-            <h3>Compétence : Connecter des entreprises et des usagers</h3>
+            <h3>Compétence : Connecter les Entreprises et les Usagers</h3>
             
             <div class="auto-evaluation my-4">
-                <h5>Auto-évaluation : Niveau 2/4 - En développement</h5>
+                <h5>Auto-évaluation : Niveau 2/4 En développement</h5>
                 <div class="progress barre-progression" style="height: 25px;">
-                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">2/4</div>
+                    <div class="progress-bar" role="progressbar" style="width: 50%;">2/4</div>
                 </div>
-                <p class="mt-2">Maîtrise des systèmes de transmission, câblage réseau (cuivre/fibre).</p>
+                <p class="mt-2">Déploiement de supports de transmission, tests de connectivité, téléphonie IP et communication technique.</p>
             </div>
 
             <div class="card carte">
                 <div class="card-header tete-carte"><strong>Ce que j'ai réalisé</strong></div>
                 <div class="card-body corps-carte">
                     
-                    <h5 class="mt-4"><strong>AC12.01</strong> Mesurer et analyser les signaux</h5>
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h6 class="card-title">LabView</h6>
-                        </div>
-                        <img src="{{ asset('images/pour_connecter/AC_12_01/Lab_View.png') }}" class="card-img-bottom" alt="LabView">
-                    </div>
-                    
-
-                    <h5 class="mt-4"><strong>AC12.02</strong> Caractériser des systèmes de transmissions</h5>
-                    
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-title">Déphasage sur Proteus</h6>
-                        </div>
-                        <img src="{{ asset('images/pour_connecter/AC_12_02/Dephasage_proteus.png') }}" class="card-img-bottom" alt="LabView">
-                    </div>
-
                     <h5 class="mt-4"><strong>AC12.03</strong> Déployer des supports de transmission</h5>
                     
                     <div class="row">
@@ -280,8 +300,18 @@
                         </div>
                     </div>
 
-                    <h5 class="mt-4"><strong>AC12.04</strong> Connecter les systèmes de ToIP</h5>
+                    <div class="mt-4 p-3" style="border-left: 4px solid #ff7700;">
+                        <strong>Document de preuve AC12.03</strong>
+                        <ul class="mt-2 mb-0" style="padding-left: 1.2rem;">
+                            <li><strong>Contexte :</strong> Projet de validation de supports de transmission : tests de câblage Ethernet avec testeur dédié, déploiement de liens fibre optique, analyse WiFi avec Aircheck G2.</li>
+                            <li><strong>Savoirs :</strong> Normes de câblage TIA-568, principes de la fibre optique (alignement micrométrique, fusion par arc), protocoles WiFi 802.11, interprétation de mesures OTDR.</li>
+                            <li><strong>Savoir-faire :</strong> Sertissage et test de câbles RJ45 (détection d'inversions, croisements, ruptures), soudure de fibre avec soudeuse optique, inspection visuelle des épissures, mesures de pertes optiques, analyse WiFi (canaux, puissance, interférences).</li>
+                            <li><strong>Savoir-être :</strong> Précision manuelle, respect des procédures de sécurité optique, rigueur dans l'interprétation des résultats de test.</li>
+                            <li><strong>Résultats :</strong> Câbles cuivre validés sans défaut, soudures fibre conformes aux seuils de perte, cartographie WiFi réalisée. Compétences opérationnelles pour les interventions terrain.</li>
+                        </ul>
+                    </div>
 
+                    <h5 class="mt-4"><strong>AC12.04</strong> Connecter les systèmes de ToIP</h5>
                     <div class="row">
                         <div class="col-md-4 mb-3">
                             <div class="card">
@@ -293,15 +323,39 @@
                         </div>
                     </div>
 
-                    <h5 class="mt-4"><strong>AC12.05</strong>Communiquer avec un tiers (client, collaborateur...) et adapter son discours et sa langue à son interlocuteur</h5>
-
+                    <h5 class="mt-4"><strong>AC12.05</strong> Communiquer avec un tiers et adapter son discours</h5>
+                    
                     <div class="row">
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-3 mb-3">
                             <div class="card">
                                 <div class="card-body">
-                                    <h6 class="card-title">Rédaction</h6>
+                                    <h6 class="card-title">Devis pour client</h6>
                                 </div>
-                                <img src="{{ asset('images/pour_connecter/AC_12_05/Manuel_utilisation_anglais.png') }}" class="card-img-bottom" alt="Rédaction">
+                                <img src="{{ asset('images/pour_connecter/AC_12_05/Devis_pour_client.png') }}" class="card-img-bottom" alt="Devis">
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Manuel d'utilisation en anglais</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_connecter/AC_12_05/Manuel_utilisation_anglais.png') }}" class="card-img-bottom" alt="Manuel anglais">
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Rapport technique</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_connecter/AC_12_05/rapport_technique.png') }}" class="card-img-bottom" alt="Rapport">
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Tutoriel techniques pour entreprise</h6>
+                                </div>
+                                <img src="{{ asset('images/pour_connecter/AC_12_05/Tutoriel_techniques_pour_entreprise.png') }}" class="card-img-bottom" alt="Tutoriel">
                             </div>
                         </div>
                     </div>
@@ -309,42 +363,36 @@
             </div>
 
             <div class="card text-white bg-primary carte-reflexive">
-                <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence CONNECTER</div>
+                <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence Connecter</div>
                 <div class="card-body corps-carte">
                     <p class="card-text">
-                        J'ai mesuré et analysé des signaux avec des générateurs, un multimètre et un oscilloscope, en appliquant la transformée de Fourier et en exploitant LabVIEW pour interpréter le comportement des signaux. 
-                        J'ai modélisé des systèmes de transmission avec Proteus pour caractériser l'amplitude, le déphasage et le multiplexage, et utilisé des convertisseurs analogique-numérique (CAN) pour comprendre la chaîne de transmission. 
-                        En fibre optique, j'ai déployé, testé et validé des liens de transmission avec l'Aircheck G2 et le Fluke Cable IQ. 
-                        J'ai configuré des systèmes de téléphonie d'entreprise via 3CX et FreePBX, et rédigé des rapports techniques pour synthétiser et présenter mes résultats de manière rigoureuse.
+                        J'ai réalisé des tests de câblage Ethernet avec un testeur professionnel pour identifier les défauts de continuité, les inversions de paires ou les croisements incorrects. 
+                        Pour la fibre optique, j'ai pratiqué la soudure avec une soudeuse de précision : alignement micrométrique des cœurs, fusion par arc électrique, puis inspection visuelle et mesures OTDR pour valider la qualité des épissures. 
+                        J'ai également utilisé l'Aircheck G2 pour analyser les réseaux WiFi : identification des canaux, mesure de la puissance du signal et détection des interférences. La partie câblage cuivre m'a plu car les résultats sont immédiats et concrets. 
+                        J'ai appris que la qualité d'une connexion dépend autant du soin apporté à la pose que des outils de validation utilisés. Pour progresser, je souhaite me former sur les techniques de réflectométrie avancée et approfondir la sécurisation des réseaux WiFi d'entreprise.
                     </p>
                 </div>
             </div>
         </div>
 
         <div class="tab-pane fade competence" id="programmer" role="tabpanel">
-            <h3>Compétence : Programmer des équipements et applications</h3>
+            <h3>Compétence : Créer des Outils et Applications informatiques pour les RT</h3>
             
             <div class="auto-evaluation py-4">
-                <h5>Auto-évaluation : Niveau 3/4 - Maîtrise satisfaisante</h5>
+                <h5>Auto-évaluation : Niveau 2/4 En développement</h5>
                 <div class="progress barre-progression" style="height: 25px;">
-                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">3/4</div>
+                    <div class="progress-bar" role="progressbar" style="width: 50%;">2/4</div>
                 </div>
-                <p class="mt-2">À l'aise avec plusieurs langages de programmation et frameworks. Développement d'applications web complètes.</p>
+                <p class="mt-2">Lecture, modification et débogage de programmes en C, Python, (HTML/CSS) et SQL. Structuration de code et résolution d'erreurs.</p>
             </div>
 
             <div class="card carte">
                 <div class="card-header tete-carte"><strong>Ce que j'ai réalisé</strong></div>
                 <div class="card-body corps-carte">
-                    <ul>
-                        <li><strong>13.01:</strong> Utiliser un système informatique et ses outils</li>
-                        <li><strong>13.02:</strong> Lire, exécuter, corriger et modifier un programme</li>
-                        <li><strong>13.03:</strong> Traduire un algorithme, dans un langage et pour un environnement donné</li>
-                        <li><strong>13.04:</strong> Connaître l'architecture et les technologies d'un site Web</li>
-                        <li><strong>13.05:</strong> Choisir les mécanismes de gestion de données adaptés au développement de l’outil et argumenter ses choix</li>
-                        <li><strong>13.06:</strong> S’intégrer dans un environnement propice au développement et au travail collaboratif</li>
-                    </ul>
-
-                    <h5 class="mt-4">Preuves de mes compétences</h5>
+                    
+                    <h5 class="mt-4"><strong>AC13.01</strong> Utiliser un système informatique et ses outils</h5>
+                    
+                    <h5 class="mt-4"><strong>AC13.02</strong> Lire, exécuter, corriger et modifier un programme</h5>
                     
                     <div class="row">
                         <div class="col-md-6 mb-3">
@@ -379,6 +427,24 @@
                                 <img src="{{ asset('images/pour_programmer/AC_13_02/C++.png') }}" class="card-img-bottom" alt="C++">
                             </div>
                         </div>
+                    </div>
+
+                    <div class="mt-4 p-3" style="border-left: 4px solid #ff7700;">
+                        <strong>Document de preuve AC13.02</strong>
+                        <ul class="mt-2 mb-0" style="padding-left: 1.2rem;">
+                            <li><strong>Contexte :</strong> Développement et maintenance de scripts en C et Python, correction de bugs et ajout de fonctionnalités sur des programmes existants.</li>
+                            <li><strong>Savoirs :</strong> Syntaxe propre à chaque langage (C, Python), structures de contrôle, gestion des erreurs, principes de débogage.</li>
+                            <li><strong>Savoir-faire :</strong> Lecture et compréhension de code existant, analyse des messages d'erreur, modification de programmes pour corriger les bugs, validation de l'exécution, structuration du code pour la maintenabilité.</li>
+                            <li><strong>Savoir-être :</strong> Persévérance face aux erreurs, méthode d'analyse pas à pas, rigueur dans l'indentation et le nommage des variables.</li>
+                            <li><strong>Résultats :</strong> Programmes fonctionnels après correction, exécution stable, code lisible et modifiable. Compétences de base pour l'automatisation et la maintenance logicielle.</li>
+                        </ul>
+                    </div>
+
+                    <h5 class="mt-4"><strong>AC13.03</strong> Traduire un algorithme, dans un langage et pour un environnement donné</h5>
+                    
+                    <h5 class="mt-4"><strong>AC13.04</strong> Connaître l'architecture et les technologies d'un site Web</h5>
+                    
+                    <div class="row">
                         <div class="col-md-6 mb-3">
                             <div class="card">
                                 <div class="card-body">
@@ -395,20 +461,21 @@
                                 <img src="{{ asset('images/pour_programmer/AC_13_04/Page_accueil.png') }}" class="card-img-bottom" alt="Rendu">
                             </div>
                         </div>
-                        </div>
                     </div>
-
                 </div>
             </div>
 
             <div class="card text-white bg-primary carte-reflexive">
-                <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence PROGRAMMER</div>
+                <div class="card-header tete-carte">Mon Analyse Réflexive sur la compétence Programmer</div>
                 <div class="card-body corps-carte">
                     <p class="card-text">
-                        J'ai développé mes compétences en programmation en codant en C, C++ (Arduino Uno), Python et SQL (Access), en structurant mon code et en utilisant le débogage efficacement. 
-                        J'ai conçu mon e-portfolio de A à Z : front-end (HTML, CSS, Bootstrap) et back-end (Symfony), en travaillant à partir d'un cahier des charges. 
-                        J'ai exploité GeoGebra pour modéliser des concepts mathématiques, et déployé des environnements conteneurisés avec Docker et Portainer. 
-                        Aujourd'hui, je suis capable de produire une application web complète et de gérer une infrastructure logicielle, avec pour prochain objectif d'intégrer JavaScript pour rendre mes interfaces interactives.
+                        J'ai appris à lire et comprendre du code écrit par d'autres, puis à le modifier pour ajouter des fonctionnalités ou corriger des bugs. 
+                        Que ce soit en C ou en Python, j'ai dû respecter la syntaxe propre à chaque langage et structurer mon code pour qu'il reste lisible. 
+                        Quand un programme ne fonctionnait pas, j'analysais les messages d'erreur, je repérais la ligne problématique et je testais des corrections jusqu'à obtenir le résultat attendu. 
+                        Le débogage m'a appris à être méthodique : isoler le problème, tester une hypothèse, valider ou recommencer. 
+                        Pour la création de l'e-portfolio, j'ai appliqué ces principes en HTML/CSS en découpant la page en sections et en vérifiant le rendu à chaque étape. 
+                        J'ai parfois passé du temps sur des erreurs simples (oubli de point-virgule, indentation), mais chaque correction m'a rendu plus vigilant. 
+                        Je maîtrise encore mal les concepts avancés comme la programmation orientée objet ou les frameworks, mais je suis à l'aise pour lire, modifier et déboguer du code simple. Pour progresser, je compte pratiquer régulièrement sur des petits projets et me former sur les bonnes pratiques de développement collaboratif.
                     </p>
                 </div>
             </div>
@@ -419,6 +486,8 @@
                     <span class="badge bg-primary etiquette me-1 mb-2">HTML/CSS</span>
                     <span class="badge bg-primary etiquette me-1 mb-2">Python</span>
                     <span class="badge bg-primary etiquette me-1 mb-2">SQL</span>
+                    <span class="badge bg-primary etiquette me-1 mb-2">C</span>
+                    <span class="badge bg-primary etiquette me-1 mb-2">C++</span>
                 </div>
             </div>
             
@@ -427,18 +496,11 @@
                     <h6 class="card-title">Applications/outils utilisés lors de mes projets :</h6>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Symfony</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Access</span>
-                    <span class="badge bg-secondary etiquette me-1 mb-2">Géogebra</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Bootstrap</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">GitHub</span>
-                    <span class="badge bg-secondary etiquette me-1 mb-2">Excel</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Linux</span>
-                    <span class="badge bg-secondary etiquette me-1 mb-2">Machine virtuelle</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Docker</span>
-                    <span class="badge bg-secondary etiquette me-1 mb-2">Wordpress</span>
-                    <span class="badge bg-secondary etiquette me-1 mb-2">Proteus</span>
-                    <span class="badge bg-secondary etiquette me-1 mb-2">FreePBX/3CX</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Wireshark</span>
-                    <span class="badge bg-secondary etiquette me-1 mb-2">LabView</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Cisco Packet Tracer</span>
                     <span class="badge bg-secondary etiquette me-1 mb-2">Visual Studio Code</span>
                 </div>
